@@ -1,0 +1,175 @@
+# Lecture 02 - Variables & Data Types
+
+## Why Data Types?
+- Data types define how much memory is required to store data.
+- Introduced to utilize memory efficiently, especially when memory was limited.
+
+---
+
+## Memory Basics
+
+- **1 Bit** = Binary Digit (0 or 1)
+- **1 Nibble** = 4 Bits
+- **1 Byte** = 8 Bits = 2 Nibbles
+
+Example:
+
+```text
+00000000 = 1 Byte
+```
+
+---
+
+## Java (1995)
+
+- Java was released in **1995 (JDK 1.0)**.
+- Memory (RAM) was a major constraint.
+- Different data types were introduced for efficient memory utilization.
+
+---
+
+# Categories of Data Types
+
+## 1. Primitive Data Types (8)
+
+Primitive data types store actual values directly in memory.
+
+### Boolean
+- `boolean`
+- Values:
+  - `true`
+  - `false`
+
+### Numeric
+
+#### Integral Numbers
+- `byte`
+- `short`
+- `int`
+- `long`
+
+#### Character
+- `char`
+
+#### Floating Point Numbers
+- `float`
+- `double`
+
+---
+
+## 2. Non-Primitive (Reference) Data Types
+
+Reference variables store the memory address of an object.
+
+Examples:
+- Arrays
+- Classes
+- Interfaces
+- Enums
+
+---
+
+# Primitive vs Reference Data Types
+
+| Primitive Data Types | Reference Data Types |
+|----------------------|----------------------|
+| Stores actual value | Stores object reference |
+| Faster access | Comparatively slower |
+| Fixed size | Depends on object |
+| Created by Java | User-defined objects |
+
+---
+
+# Variables
+
+A variable is a **name given to a memory location**.
+
+Instead of remembering memory addresses, we access memory using meaningful variable names.
+
+---
+
+# Java is Statically Typed
+
+Java is a **statically typed language**, meaning every variable must have a declared data type.
+
+Example:
+
+```java
+int age = 25;
+```
+
+Where:
+- `int` → Data Type
+- `age` → Variable Name
+- `=` → Assignment Operator
+- `25` → Value
+
+---
+
+# Syntax
+
+```java
+DataType variableName = value;
+```
+
+---
+
+# Declaration
+
+Allocates memory without assigning a value.
+
+```java
+int x;
+```
+
+---
+
+# Assignment
+
+Assigns a value to an existing variable.
+
+```java
+x = 20;
+```
+
+---
+
+# Initialization
+
+Declaration and assignment together.
+
+```java
+int x = 20;
+```
+
+Examples:
+
+```java
+int b = 25;
+int c = 50;
+int d = 82;
+```
+
+---
+
+# Character Data Type
+
+Characters are internally represented using **ASCII/Unicode** values.
+
+Examples:
+
+```java
+'A'
+'a'
+```
+
+---
+
+# Key Takeaways
+
+- Java is a statically typed language.
+- Every variable must have a data type.
+- Primitive data types store actual values.
+- Reference data types store object references.
+- Declaration, Assignment, and Initialization are different concepts.
+- Data types help optimize memory usage.
